@@ -9,7 +9,7 @@ function App(){
           <div className='expand'>
           <img src={expandIcon} alt=""  />
           </div>
-          <img src="public\italy.jpg" alt="" />
+          <img src="italy.jpg" alt="" />
           <h2>Colosseum (Italy)</h2>
           <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
         </div>
@@ -17,7 +17,7 @@ function App(){
         <div className='expand'>
           <img src={expandIcon} alt=""  />
           </div>
-          <img src="public\brazil.jpg" alt="" />
+          <img src="brazil.jpg" alt="" />
           <h2>Christ the Redeemer (Brazil)</h2>
           <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
         </div>
@@ -25,7 +25,7 @@ function App(){
         <div className='expand'>
           <img src={expandIcon} alt=""  />
           </div>
-          <img src="public\china.jpg" alt="" />
+          <img src="china.jpg" alt="" />
           <h2>Great Wall (China)</h2>
           <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
         </div>
@@ -33,7 +33,7 @@ function App(){
         <div className='expand'>
           <img src={expandIcon} alt=""  />
           </div>
-          <img src="public\peru.jpg" alt="" />
+          <img src="peru.jpg" alt="" />
           <h2>Machu Picchu (Peru)</h2>
           <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
         </div>
@@ -41,7 +41,7 @@ function App(){
         <div className='expand'>
           <img src={expandIcon} alt=""  />
           </div>
-          <img src="public\jordan.jpg" alt="" />
+          <img src="jordan.jpg" alt="" />
           <h2>Petra (Jordan)</h2>
           <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
         </div>
@@ -49,7 +49,7 @@ function App(){
         <div className='expand'>
           <img src={expandIcon} alt=""  />
           </div>
-          <img src="public\mexico.jpg" alt="" />
+          <img src="mexico.jpg" alt="" />
           <h2>Chichén Itzá (Mexico)</h2>
           <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), 
             built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
@@ -58,7 +58,7 @@ function App(){
         <div className='expand'>
           <img src={expandIcon} alt=""  />
           </div>
-          <img src="public\india.jpg" alt="" />
+          <img src="india.jpg" alt="" />
           <h2>Taj Mahal (India)</h2>
           <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator
              fights, shows, and public games.</p>
