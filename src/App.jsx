@@ -1,68 +1,17 @@
 import './App.css'
-import expandIcon from "/expand.jpg";
+import Card from './components/Card'
 
 function App(){
   return(
     <>
       <div id="parent">
-        <div className="card">
-          <div className='expand'>
-          <img src={expandIcon} alt=""  />
-          </div>
-          <img src="italy.jpg" alt="" />
-          <h2>Colosseum (Italy)</h2>
-          <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
-        </div>
-        <div className="card">
-        <div className='expand'>
-          <img src={expandIcon} alt=""  />
-          </div>
-          <img src="brazil.jpg" alt="" />
-          <h2>Christ the Redeemer (Brazil)</h2>
-          <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
-        </div>
-        <div className="card">
-        <div className='expand'>
-          <img src={expandIcon} alt=""  />
-          </div>
-          <img src="china.jpg" alt="" />
-          <h2>Great Wall (China)</h2>
-          <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
-        </div>
-        <div className="card">
-        <div className='expand'>
-          <img src={expandIcon} alt=""  />
-          </div>
-          <img src="peru.jpg" alt="" />
-          <h2>Machu Picchu (Peru)</h2>
-          <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
-        </div>
-        <div className="card">
-        <div className='expand'>
-          <img src={expandIcon} alt=""  />
-          </div>
-          <img src="jordan.jpg" alt="" />
-          <h2>Petra (Jordan)</h2>
-          <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
-        </div>
-        <div className="card">
-        <div className='expand'>
-          <img src={expandIcon} alt=""  />
-          </div>
-          <img src="mexico.jpg" alt="" />
-          <h2>Chichén Itzá (Mexico)</h2>
-          <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), 
-            built between 72 and 80 AD, could host up to 50,000 spectators for gladiator fights, shows, and public games.</p>
-        </div>
-        <div className="card">
-        <div className='expand'>
-          <img src={expandIcon} alt=""  />
-          </div>
-          <img src="india.jpg" alt="" />
-          <h2>Taj Mahal (India)</h2>
-          <p>Symbol of ancient Rome, the Colosseum (or Flavian Amphitheater), built between 72 and 80 AD, could host up to 50,000 spectators for gladiator
-             fights, shows, and public games.</p>
-        </div>
+        <Card name="Colosseum (Italy)" place="public\italy.jpg" />
+        <Card name="Christ the Redeemer (Brazil)" place="public\brazil.jpg" />
+        <Card name="Great Wall (China)" place="public\china.jpg" />
+        <Card name="Machu Picchu (Peru)" place="public\peru.jpg" />
+        <Card name="Petra (Jordan)" place="public\jordan.jpg" />
+        <Card name="Chichén Itzá (Mexico)" place="public\mexico.jpg" />
+        <Card name="Taj Mahal (India)" place="public\india.jpg" />
       </div>
     </>
   )
